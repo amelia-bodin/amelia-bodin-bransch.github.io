@@ -1,15 +1,15 @@
 var CONFIG_LINE = {
  "data": {
-  "_lastModified": 1741080975358,
+  "_lastModified": 1741165518061,
   "assetsPath": "C:\\Users\\amelia.bodin\\AppData\\Local\\Programs\\Gapminder Offline\\resources\\preview-data\\",
   "ddfPath": "./data/bransch_ddf",
-  "lastModified": 1741080975358,
+  "lastModified": 1741165518061,
   "path": "./data/bransch_ddf",
   "reader": "ddf"
  },
  "locale": {
   "filePath": "assets/translation/",
-  "id": "en"
+  "id": "sv-SE"
  },
  "state": {
   "entities": {
@@ -78,10 +78,9 @@ var CONFIG_LINE = {
     "domainMin": null,
     "fixBaseline": null,
     "scaleType": "linear",
-    "spaceRef": null,
     "syncModels": [],
     "use": "indicator",
-    "which": "and_syssel",
+    "which": "and_forb_inv",
     "zoomedMax": null,
     "zoomedMin": null
    },
@@ -99,7 +98,7 @@ var CONFIG_LINE = {
     "autoconfig": {},
     "data": "data",
     "palette": {
-     "_default": "#ffb600"
+     "_default": "#4f6366"
     },
     "paletteHiddenKeys": [],
     "paletteLabels": null,
@@ -171,7 +170,7 @@ var CONFIG_LINE = {
    "autoconfig": {
     "type": "time"
    },
-   "delay": 150,
+   "delay": 535,
    "delayThresholdX2": 90,
    "delayThresholdX4": 45,
    "dim": "year",
@@ -192,9 +191,9 @@ var CONFIG_LINE = {
    "record": false,
    "round": "round",
    "showForecast": true,
-   "start": "2000",
+   "start": "2008",
    "startOrigin": null,
-   "startSelected": "2000",
+   "startSelected": "2008",
    "step": 1,
    "unit": "year",
    "value": "2022"
