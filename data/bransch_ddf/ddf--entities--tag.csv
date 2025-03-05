@@ -1,7 +1,7 @@
 ﻿tag,name,parent
 handel,Handel,
 utslapp,Utsläpp,
-energi,Energi,spec_sek
+energi,Energi,
 ekonomi,Ekonomi,
 miljo_sek,Miljösektorn,spec_sek
 bioek,Bioekonomi,spec_sek
@@ -12,5 +12,6 @@ ej_farligt,Icke-farligt avfall,natur
 eko_styr,Ekonomiska Styrmedel,
 kompetens,Kompetens,
 konsum,Produkter,
+konsumtion,Konsumtion,
 invest,Investeringar,
 spec_sek,Särskilda sektorer,
