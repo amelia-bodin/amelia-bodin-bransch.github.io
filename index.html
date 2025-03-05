@@ -54,16 +54,12 @@
   <button class= "button tab-bar" id="tab-bar">Rankat stapeldiagram</button>
 </div>
 
-<script src="config-bubble.js"></script>
-<script src="config-line.js"></script>
-<script src="config-rank.js"></script>
-<script src="index.js"></script>
-    <script>
+<script>
 
-      var ddfcsvReader = new DDFCsvReader.getDDFCsvReaderObject();
-      Vizabi.Reader.extend("ddf", ddfcsvReader);
-      Vizabi.Reader.extend("ext-csv", CsvReader.csvReaderObject);
-      Vizabi.Reader.extend("excel", ExcelReader.excelReaderObject);
+  var ddfcsvReader = new DDFCsvReader.getDDFCsvReaderObject();
+  Vizabi.Reader.extend("ddf", ddfcsvReader);
+  Vizabi.Reader.extend("ext-csv", CsvReader.csvReaderObject);
+  Vizabi.Reader.extend("excel", ExcelReader.excelReaderObject);
 
 
 // New code to test different chart versions
@@ -72,20 +68,27 @@ var viz = Vizabi(CONFIG_BUBBLE.chartType, document.getElementById('placeholder')
 
 // Tab button logic
 document.getElementById('tab-bubble').addEventListener('click', function() {
-  viz = Vizabi(CONFIG_BUBBLE.chartType, document.getElementById('placeholder'), CONFIG_BUBBLE);
+viz = Vizabi(CONFIG_BUBBLE.chartType, document.getElementById('placeholder'), CONFIG_BUBBLE);
 });
 
 document.getElementById('tab-line').addEventListener('click', function() {
-  viz = Vizabi(CONFIG_LINE.chartType, document.getElementById('placeholder'), CONFIG_LINE);
+viz = Vizabi(CONFIG_LINE.chartType, document.getElementById('placeholder'), CONFIG_LINE);
 });
 
 document.getElementById('tab-bar').addEventListener('click', function() {
-  viz = Vizabi(CONFIG_BARRANK.chartType, document.getElementById('placeholder'), CONFIG_BARRANK);
+viz = Vizabi(CONFIG_BARRANK.chartType, document.getElementById('placeholder'), CONFIG_BARRANK);
 });
 
 
-    //  var viz = Vizabi('BubbleChart', document.getElementById('placeholder'), CONFIG);
+//  var viz = Vizabi('BubbleChart', document.getElementById('placeholder'), CONFIG);
 
-    </script>
+</script>
+
+
+<script src="config-bubble.js"></script>
+<script src="config-line.js"></script>
+<script src="config-rank.js"></script>
+<script src="index.js"></script>
+
   </body>
 </html>
