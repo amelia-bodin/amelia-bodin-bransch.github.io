@@ -98,7 +98,7 @@ var CONFIG_LINE = {
     "autoconfig": {},
     "data": "data",
     "palette": {
-     "_default": "#4f6366"
+     "_default": "#789e9e"
     },
     "paletteHiddenKeys": [],
     "paletteLabels": null,
