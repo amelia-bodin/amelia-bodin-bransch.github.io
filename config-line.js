@@ -123,7 +123,7 @@ var CONFIG_LINE = {
     "use": "property",
     "which": "name"
    },
-   "limit": 5000,
+   "limit": 50000,
    "opacityHighlightDim": 0.1,
    "opacityRegular": 1,
    "opacitySelectDim": 0.3,
